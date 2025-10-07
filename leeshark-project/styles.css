@@ -1,0 +1,314 @@
+.contact-bar{
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.contact-bar p {
+    margin-bottom: 0;
+}
+
+/* navbar edit */
+.navbar-list li a:hover{
+    color: orangered !important;
+    text-decoration: underline;
+}
+
+.navbar-brand-img {
+    height: 50px;
+}
+
+/* carousel */
+.carousel-item-1{
+    background-image: url('images/couseral-img-1.jpg');
+    height: 500px;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+}
+
+.item-background{
+   
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.btn-color-1{
+    background-image: linear-gradient(to right, rgb(255, 115, 0), orangered);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    padding: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-color-1:hover {
+    background-image: linear-gradient(to right, rgb(230, 100, 0), rgb(220, 80, 0));
+    color: white;
+}
+
+.btn-color-2{
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-color-2:hover{
+    border: 2px solid rgb(255, 115, 0);
+    background-image: linear-gradient(to right, rgb(255, 115, 0), orangered);
+    color: white;
+}
+
+/* next box css */
+.box-container-2{
+    background-color: orangered;
+    margin-top: 50px;
+    color: white;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.box-container-1{
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-top: 50px;
+    color: black;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.box-container-1:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+
+.box-container-1 i, .box-container-2 i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.box-container-1 h3, .box-container-2 h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* container-2 */
+.container-2{
+    background-image: url('images/image-1.jpeg');
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+    background-position: center;
+}
+
+.container-box-3{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.p-text{
+    color: rgb(185, 223, 255);
+    line-height: 1.6;
+}
+
+.btn-button-2{
+    background-image: linear-gradient(to right, rgb(255, 115, 0), orangered);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    padding: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-button-2:hover {
+    background-image: linear-gradient(to right, rgb(230, 100, 0), rgb(220, 80, 0));
+    color: white;
+}
+
+/* next page */
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.text-orange {
+    color: orange !important;
+}
+
+.donate-container{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.donate-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.container-box-5{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container-box-6{
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.container-box-7{
+    font-size: 15px;
+    color: #495057;
+    line-height: 1.5;
+}
+
+.container-box-8{
+    background-color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+    color: white;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.container-box-8:hover {
+    background-color: rgb(230, 100, 0);
+    border-color: rgb(230, 100, 0);
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-item-1 {
+        height: 400px;
+    }
+    
+    .box-container-1, .box-container-2 {
+        margin-left: 0;
+        margin-right: 0;
+        height: 250px;
+    }
+    
+    .container-2, .container-box-3 {
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    .donate-container {
+        margin-top: 30px;
+    }
+}
+
+/* .container-box-9{ */
+
+.container-box-9{
+    background-image:url('images/charity-image.webp');
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.overlay-1{
+    background-color: rgba(255, 255, 255, 0.699);
+    height: 600px;
+    margin-top: 50px;
+    
+}
+
+
+/* next part */
+
+.Our-Causes-Section{
+    background-image:url('images/image-2.jpeg');
+    background-size: cover;
+    
+}
+
+.Our-Causes-Section-1{
+    background-color: rgba(0, 0, 0, 0.699);
+    
+}
+
+
+/* last page container */
+
+.last-box-container{
+    background-image: url('/images/sea-sunset-children-2K-wallpaper-middle-size.jpg');
+    background-size: cover;
+    height:600px;
+}
+
+.last-box-container-1{
+    background-color: rgba(0, 0, 0, 0.868);
+    height:600px;
+}
+.link-hover-orange-1{
+    color: white;
+}
+.link-hover-orange-1:hover{
+    color: rgb(255, 94, 0);
+}
+
+.last-input{
+    border: none;
+    border-right: none;
+    outline: none;
+    width: 150px;
+    padding: 6px;
+    
+
+}
+
+.last-button{
+    background-image: linear-gradient(to right, rgb(255, 115, 0), orangered);
+    border: none;
+    color: white;
+    
+    padding:6px;
+    
+    width: 80px;
+}
+
+@media screen and (max-width: 700px) {
+    .last-box-container{
+        height: 100rem;
+        padding: 20px 0;
+    }
+    .last-box-container-1{
+        height: 100rem;
+        padding: 20px 0;
+    }
+}
